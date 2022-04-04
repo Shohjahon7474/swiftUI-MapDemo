@@ -8,8 +8,32 @@
 import SwiftUI
 
 struct HomeScreen: View {
+
     var body: some View {
-        Text("Shohjahon Abdurahmonov").foregroundColor(Color.blue)
+        
+        NavigationView{
+            Text("Shohjahon Abdurahmonov").padding()
+                .toolbar{
+                    ToolbarItem(placement: .principal){
+                        Text("Home")
+                    }
+                    ToolbarItem(placement: .navigationBarTrailing){
+                        Button{
+                            
+                        } label: {
+                            Image(systemName: "applelogo")
+                        }
+                    }
+                    ToolbarItem(placement: .navigationBarLeading){
+                        Button{
+                            
+                        } label: {
+                            Image(systemName: "square.and.pencil")
+                        }
+                    }
+                    
+            }
+        }
     }
 }
 

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8403F6F927FACBDD005E9D5D /* DetailScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8403F6F827FACBDC005E9D5D /* DetailScreen.swift */; };
 		8440ADA627F843C50079B402 /* swiftUIDemoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8440ADA527F843C50079B402 /* swiftUIDemoApp.swift */; };
 		8440ADAA27F843C80079B402 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8440ADA927F843C80079B402 /* Assets.xcassets */; };
 		8440ADAD27F843C80079B402 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8440ADAC27F843C80079B402 /* Preview Assets.xcassets */; };
@@ -36,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8403F6F827FACBDC005E9D5D /* DetailScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailScreen.swift; sourceTree = "<group>"; };
 		8440ADA227F843C50079B402 /* swiftUIDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = swiftUIDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8440ADA527F843C50079B402 /* swiftUIDemoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swiftUIDemoApp.swift; sourceTree = "<group>"; };
 		8440ADA927F843C80079B402 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -135,6 +137,7 @@
 			isa = PBXGroup;
 			children = (
 				8440ADD527F8461A0079B402 /* HomeScreen.swift */,
+				8403F6F827FACBDC005E9D5D /* DetailScreen.swift */,
 			);
 			path = Screens;
 			sourceTree = "<group>";
@@ -279,6 +282,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8403F6F927FACBDD005E9D5D /* DetailScreen.swift in Sources */,
 				8440ADB227F843C80079B402 /* swiftUIDemo.xcdatamodeld in Sources */,
 				8440ADD627F8461A0079B402 /* HomeScreen.swift in Sources */,
 				8440ADAF27F843C80079B402 /* Persistence.swift in Sources */,
